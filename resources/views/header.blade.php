@@ -23,6 +23,7 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li> <a href="">Login</a>
+        <li> <a href="">register</a>
             </li>
     </ul>
     </div>
