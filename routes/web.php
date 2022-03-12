@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\User;
 use  App\Http\Controller\UserController;
+use App\Post;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,7 +16,8 @@ use  App\Http\Controller\UserController;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $posts = Post::all();
+    return view('home',compact('posts'));
 });
 
 
