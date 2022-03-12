@@ -1,6 +1,6 @@
 @extends('master')
 @section('content')
-<div class="container custom-login">
+<div class="container custom custom-register">
     <div class="row">
         <div class="col-sm-4 col-sm-offset-4">
             <form action="register" method="POST">

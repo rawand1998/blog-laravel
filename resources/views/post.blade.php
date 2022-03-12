@@ -10,7 +10,7 @@
     <h5 class="card-title">{{$post->title}}</h5>
     <p class="card-text">{{$post->body}}</p>
    
-  
+    @endforeach
   </div>
 </div>
          </div>

@@ -1,4 +1,4 @@
-<div style="clear:both" class="panel panel-default">
+<div style="clear:both" class="panel panel-default footer">
     <div class="panel-body">
       Panel content
     </div>
