@@ -14,7 +14,7 @@
         </li>
         <li class="nav-item dropdown">
          
-        <a class="nav-link" href="#">Blogs</a>
+        <a class="nav-link" href="/add-post">Add Blogs</a>
         </li>
         <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
