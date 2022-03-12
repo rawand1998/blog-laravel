@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\User;
+use  App\Http\Controller\UserController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,3 +23,5 @@ Route::get('/', function () {
 Route::get('/login', function () {
     return view('login');
 });
+
+Route::post('/login','UserController@login');
