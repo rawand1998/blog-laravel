@@ -15,7 +15,7 @@ use  App\Http\Controller\UserController;
 */
 
 Route::get('/', function () {
-    return view('master');
+    return view('home');
 });
 
 
