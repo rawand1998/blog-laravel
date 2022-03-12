@@ -11,4 +11,11 @@ class PostController extends Controller
        return view('post',compact('post'));
 
     }
+    public function addPost(Request $request){
+        $post = new Post;
+        $post->title = $request->title;
+        $post->body = $request->body;
+        $post->save();
+        return redirect('/');
+    }
 }
