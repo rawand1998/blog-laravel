@@ -19,6 +19,7 @@ Route::get('/', function () {
     $posts = Post::all();
     return view('home',compact('posts'));
 });
+Route::get('/detaila/{id},PostController@details');
 
 
 
