@@ -18,4 +18,7 @@ class PostController extends Controller
         $post->save();
         return redirect('/');
     }
+    public function showFormPost(){
+        return view('addPost');
+    }
 }
