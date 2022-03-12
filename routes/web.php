@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\User;
 use  App\Http\Controller\UserController;
+use  App\Http\Controller\PostController;
 use App\Post;
 /*
 |--------------------------------------------------------------------------
@@ -19,13 +20,14 @@ Route::get('/', function () {
     $posts = Post::all();
     return view('home',compact('posts'));
 });
-Route::get('/detaila/{id},PostController@details');
+Route::get('/details/{id}','PostController@details');
 
 
 
 Route::get('/login', function () {
     return view('login');
 });
+
 
 Route::post('/login','UserController@login');
 
