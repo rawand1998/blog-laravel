@@ -1,0 +1,31 @@
+.footer{
+ 
+    margin-top: 25%;
+ 
+}
+.custom{
+    margin-top:10%;
+    border:1px solid #ddd;
+    padding-top:50px;
+    width: 45%;
+    height: 300px;
+}
+.custom-register{
+ height: 350px;
+}
+.title{
+    font-size:35px;
+    color: rgb(117, 4, 4);
+    font-weight: bold;
+}
+.body{
+    font-size:25px;
+    line-height:35px;
+}
+.card-post{
+    padding-top:15px;
+    margin-top:10%;
+    width: 150%;
+    padding:15 20px;
+    margin-left: -15%;
+}
